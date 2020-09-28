@@ -4,34 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aprendendo fetch</title>
+
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <!-- Fontawesome CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header>
-      <div class="logo"></div>
-      <div class="location"></div>
+      <div class="logo">luca agra</div>
+      <div class="location">Salvador, Bahia</div>
       <nav>
         <ul class="top-header">
-          <li>home</li>
-          <li>sobre</li>
-          <li>youtube</li>
-          <li>fotos</li>
+          <li>
+            <a href="#"> home</a>
+          </li>
+          <li>
+            <a href="#"> sobre</a>
+          </li>
+          <li>
+            <a href="#"> youtube</a>
+          </li>
+          <li>
+            <a href="#"> fotos</a>
+          </li>
+          <li>
+            <a href="#"> blog</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="introduction"></section>
-      <section class="album">
-        <div class="photo-title"></div>
-        <div class="photos"></div>
+      <section class="introduction">
+        <h1>Olá! Eu me chamo Luca Agra.</h1>
+        <p>
+          Eu sou um desenvolvedor front-end que gosta de criar contéudos
+          bonitos. Eu adoro ajudar as pessoas! Se quiser aprender mais coisas,
+          sigam o nosso blog!
+        </p>
+        <p class="center">
+          Eu também adoro apreciar boas fotos, por isso mostrarei algumas fotos
+          interessantes!
+        </p>
+        <div class="photo-title">Aqui estão algumas fotos</div>
+        <div id="photos"></div>
       </section>
     </main>
-    <footer>
-      <div class="social-media"></div>
+    <footer class="social-media">
+      <ul>
+        <li>
+          <a href="">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
   </body>
   <script src="main.js"></script>
