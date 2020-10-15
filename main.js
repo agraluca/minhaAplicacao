@@ -1,5 +1,9 @@
 async function getPhotos() {
-  const res = await fetch("https://picsum.photos/v2/list?page=10&limit=12");
+  const res = await fetch(
+    `https://picsum.photos/v2/list?page=${Math.floor(
+      Math.random() * 10
+    )}&limit=8`
+  );
   const data = await res.json();
   console.log(data);
   showPhotos(data);
